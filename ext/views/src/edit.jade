@@ -58,7 +58,12 @@ html(lang="en")
             label
               input#trello-card-name(type="text" placeholder="Card Name" value="")
             label
-              textarea#trello-card-description(placeholder="Card Description" value="")
+              input#trello-card-description(type="text" placeholder="Type of account logged in (Tutor / Admin / Student)" value="")
+            label 
+              textarea#trello-card-whathappened(placeholder="What happened" value="")
+            label 
+              textarea#trello-card-expectedbehavior(placeholder="Expected behavior" value="")
+
             label.checkbox-field.trello-card-position
               input(type="checkbox")
               .input
